@@ -4,7 +4,7 @@ import pickle
 from sklearn.preprocessing import StandardScaler
 
 # Load the trained model and scaler once
-with open(r'Model\Model.pkl', 'rb') as model_pkl:
+with open(r'Model/Model.pkl', 'rb') as model_pkl:
     model = pickle.load(model_pkl)
 
 
